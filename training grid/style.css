@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+p {
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+.one {
+    background-color: #861657;
+    grid-column: span 2;
+}
+
+.two {
+    background-color: #A64253;
+    grid-row: span 2;
+
+}
+
+.three {
+    background-color: #D56AA0;
+}
+
+.four {
+    background-color: #BBDBB4;
+}
+
+.five {
+    background-color: #FCF0CC;
+}
